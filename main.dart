@@ -8,16 +8,39 @@ void main() {
         crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
-              color: Color.fromARGB(255, 245, 90, 0),
-              width: 100,
-              height: 100,
+              color: Colors.greenAccent,
             ),
-            Container(
-              color: Color.fromARGB(255, 245, 90, 0),
-              width: 50,
-              height: 50,
+            Stack(
+              children: [
+                Container(
+                  color: Color.fromARGB(255, 245, 90, 0),
+                  width: 100,
+                  height: 100,
+                ),
+                Container(
+                  color: Color.fromARGB(255, 245, 199, 173),
+                  width: 50,
+                  height: 50,
+                ),
+                Text('É tudo raposa!'),
+              ],
             ),
             Text('É tudo raposa!'),
+            Stack(
+              children: [
+                Container(
+                  color: Color.fromARGB(255, 245, 90, 0),
+                  width: 100,
+                  height: 100,
+                ),
+                Container(
+                  color: Color.fromARGB(255, 245, 199, 173),
+                  width: 50,
+                  height: 50,
+                ),
+                Text('É tudo raposa!'),
+              ],
+            ),
         ],
       ),
     ),
